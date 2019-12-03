@@ -1,0 +1,233 @@
+
+
+#grid{
+	display:grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	width: 100vw;
+	grid-template-areas:
+		"box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1"
+		"box2 box9 box9 box9 box9 box9 box9 box9 box9 box9 box9 box8"
+		"box2 box3 box3 box3 box3 box3 box3 box3 box3 box3 box3 box8"
+		"box2 box4 box4 box4 box4 box4 box4 box4 box4 box4 box4 box8"
+		"box2 box5 box5 box5 box5 box5 box5 box5 box5 box5 box5 box8"
+		"box2 box6 box6 box6 box6 box6 box6 box6 box6 box6 box6 box8"
+		"box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7"
+
+		
+		
+		
+	}
+
+	p{
+
+font-size: 2vh;
+text-align: center;
+}
+
+h6{
+	font-size: 4vh;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#filter{
+	height: 4vh;
+	margin-left: .25em;
+	margin-right: .25em;
+
+}
+
+
+
+#box1{
+
+	grid-area:box1;
+
+}
+
+#box2{
+
+	grid-area:box2;
+	width: 9vw;
+
+	
+
+}
+
+#box3{
+	
+	grid-area:box3;
+	height: 31vh;
+	text-align: center;
+
+}
+
+#box4{
+	
+	grid-area:box4;
+	height: 15vh;
+
+}
+
+#box5{
+	
+	grid-area:box5;
+	height: 31vh;
+
+}
+
+#box6{
+	
+	grid-area:box6;
+	height: 5vh;
+
+}
+
+#box7{
+	
+	grid-area:box7;
+	height: 6vh;
+
+}
+
+#box8{
+	
+	grid-area:box8;
+	width: 9vw;
+
+}
+
+#box9{
+
+	grid-area:box9;
+	height: 6vh;
+
+}
+
+.navbars{
+	height: 7vh;
+	background-color: transparent;
+}
+
+.carousel img{
+	height: 31vh;
+	
+}
+
+@media only screen and (max-width: 1600px){
+	
+
+	.carousel{
+	height: 31vh;
+	width: 30vw;
+
+
+}
+#box8{
+	
+	grid-area:box8;
+	width: 35vw;
+
+}
+
+#box2{
+
+	grid-area:box2;
+	width: 35vw;
+
+	
+
+}
+	
+
+
+	}
+
+@media only screen and (max-width: 1400px){
+
+
+	.carousel{
+	height: 31vh;
+	width: 40vw;
+
+
+}
+#box8{
+	
+	grid-area:box8;
+	width: 35vw;
+
+}
+
+#box2{
+
+	grid-area:box2;
+	width: 35vw;
+
+	
+
+}
+	
+
+
+
+
+	}
+
+@media only screen and (max-width: 975px){
+	
+
+
+	.carousel{
+	height: 31vh;
+	width: 45vw;
+
+
+}
+
+#box8{
+	
+	grid-area:box8;
+	width: 32.5vw;
+
+}
+
+#box2{
+
+	grid-area:box2;
+	width: 32.5vw;
+
+	
+
+}
+
+	}
+
+
+
+
+@media only screen and (max-width: 655px){
+
+		.carousel{
+	height: 31vh;
+	width: 70vw;
+}
+
+#box8{
+	
+	grid-area:box8;
+	width: 15vw;
+
+}
+
+#box2{
+
+	grid-area:box2;
+	width: 15vw;
+
+	
+
+}
+
+

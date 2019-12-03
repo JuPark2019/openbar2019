@@ -1,0 +1,212 @@
+
+body{
+	min-height: 500px;
+}
+
+#grid{
+	display:grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	width: 100vw;
+	grid-template-areas:
+		"box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1"
+		"box2 box9 box9 box9 box9 box9 box9 box9 box9 box9 box9 box8"
+		"box2 box3 box3 box3 box3 box3 box4 box4 box4 box4 box4 box8"
+		"box2 box5 box5 box5 box5 box5 box5 box5 box5 box5 box5 box8"
+		"box2 box6 box6 box6 box6 box6 box6 box6 box6 box6 box6 box8"
+		"box2 box6 box6 box6 box6 box6 box6 box6 box6 box6 box6 box8"
+		"box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7"
+
+		
+		
+		
+	}
+
+img{
+	min-height: 30px;
+}
+
+h5{
+	text-align: center;
+}
+
+.card{
+width: 35vw;
+text-align: center;
+}
+
+
+
+.btn{
+	height: 15vh;
+	min-height: 40px;
+}
+
+#backbutton{
+	width: 15vw;
+	height: 5vh;
+	margin: 5vw;
+}
+
+
+#box1{
+
+	grid-area:box1;
+	height: 15vh;
+	
+
+}
+
+#box2{
+
+	grid-area:box2;
+	width: 15vw;
+
+
+	
+
+}
+
+#box3{
+	
+	grid-area:box3;
+	
+	text-align: center;
+	
+
+	
+
+}
+
+#box4{
+	
+	grid-area:box4;
+
+	text-align: center;
+	
+	
+
+}
+
+#box5{
+	
+	grid-area:box5;
+	height: 15vh;
+	
+
+}
+
+#box6{
+	
+	grid-area:box6;
+
+	
+
+
+}
+
+#box7{
+	
+	grid-area:box7;
+	
+
+}
+
+#box8{
+	
+	grid-area:box8;
+	width: 15vw;
+
+
+
+}
+
+#box9{
+
+	grid-area:box9;
+	height: 15vh;
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1000px){
+
+.card{
+width: 15vw;
+
+}
+
+
+#backbutton{
+	width: 10vw;
+	margin: 5vw;
+}
+
+
+#box2{
+
+	
+	width: 32.5vw;
+	
+
+
+
+
+}
+
+
+
+#box8{
+	
+	
+	width: 32.5vw;
+
+
+}}
+
+
+
+
+@media only screen and (min-width: 675px){
+
+.card{
+width: 25vw;
+
+}
+
+
+#backbutton{
+	width: 6vw;
+	margin: 5vw;
+}
+
+
+#box2{
+
+	
+	width: 25vw;
+	
+
+
+
+
+}
+
+
+
+#box8{
+	
+	
+	width: 25vw;
+
+
+}}
+
+
+

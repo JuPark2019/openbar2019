@@ -1,0 +1,246 @@
+body{
+  min-height: 500px;
+}
+
+#grid{
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  width: 100vw;
+  grid-template-areas:
+    "box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1 box1"
+    "box2 box9 box9 box9 box9 box9 box9 box9 box9 box9 box9 box8"
+    "box2 box3 box3 box3 box3 box3 box3 box3 box3 box3 box3 box8"
+    "box2 box4 box4 box4 box4 box4 box4 box4 box4 box4 box4 box8"
+    "box2 box5 box5 box5 box5 box5 box5 box5 box5 box5 box5 box8"
+    "box2 box6 box6 box6 box6 box6 box6 box6 box6 box6 box6 box8"
+    "box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7"
+
+    
+    
+    
+  }
+
+  img{
+    min-height: 30px;
+  }
+
+  h5{
+    text-align: center;
+  }
+
+.screen{
+  width: 35vw;
+  padding: 3vw;
+
+}
+
+.seat{
+  width: 12vw;
+}
+
+.bar{
+  width: 50vw;
+}
+.btn{
+  margin-left: 45vw;
+
+}
+
+#backbutton{
+  margin: 3vw;
+}
+
+#makeMeDraggable1{
+ width: 5vw; 
+ margin-bottom:2vh;
+
+}
+
+
+#makeMeDroppable1{
+ margin: 0 auto; 
+ width: 80vw; 
+ height: 10vh;
+
+
+}
+
+
+#box1{
+
+  grid-area:box1;
+  height: 10vh;
+
+  
+
+}
+
+#box2{
+
+  grid-area:box2;
+
+
+ 
+
+
+  
+
+}
+
+#box3{
+  
+  grid-area:box3;
+  margin: 0 auto;
+  width: 80vw;
+
+  
+
+  
+
+}
+
+#box4{
+  
+  grid-area:box4;
+  margin: 10vw;
+  height: 60vh;
+
+
+}
+
+#box5{
+  
+  grid-area:box5;
+ 
+
+}
+
+#box6{
+  
+  grid-area:box6;
+
+  
+
+
+}
+
+#box7{
+  
+  grid-area:box7;
+  
+
+}
+
+#box8{
+  
+  grid-area:box8;
+
+  
+
+
+
+
+}
+
+#box9{
+
+  grid-area:box9;
+  height: 10vh;
+
+
+
+}
+
+
+ 
+
+@media only screen and (min-width: 655px){
+
+
+
+.screen{
+  width: 30vw;
+  padding: 3vw;
+
+}
+
+.seat{
+  width: 8vw;
+}
+
+.bar{
+  width: 30vw;
+}
+.btn{
+  margin-left: 45vw;
+}
+
+  #box4{
+  
+
+  height: 50vh;}
+
+@media only screen and (min-width: 850px){
+
+
+
+.screen{
+  width: 20vw;
+  padding: 3vw;
+
+}
+
+.seat{
+  width: 8vw;
+}
+
+.bar{
+  width: 25vw;
+}
+.btn{
+  margin-left: 45vw;
+}
+
+  #box4{
+  
+
+  height: 50vh;}
+
+@media only screen and (min-width: 950px){
+
+
+
+  #box4{
+  
+
+  height: 70vh;}
+
+
+@media only screen and (min-width: 1150px){
+
+.screen{
+  width: 20vw;
+  
+
+}
+
+.seat{
+  width: 5vw;
+}
+
+.bar{
+  width: 20vw;
+}
+.btn{
+  margin-left: 45vw;
+}
+
+
+  #box4{
+  
+
+  height: 60vh;}
+
+
+
