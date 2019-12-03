@@ -9,6 +9,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script>
+  var shows = [
+"Milwaukee Brewers",
+"Milwaukee Bucks",
+"Green Bay Packers",
+];
+
+$('#form-autocomplete').mdbAutocomplete({
+data: shows
+});
+</script>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #293462;">
@@ -40,7 +52,16 @@
       <div id="box3"><h4>Update TV schedule and assign to TVs</h4>
       	<br>
       	<h5>Search for games and programs here</h5>
-<input class="form-control" type="text" placeholder="Search" aria-label="Search"></div>
+<div class="md-form">
+  <input type="search" id="form-autocomplete" class="form-control mdb-autocomplete">
+  <button class="mdb-autocomplete-clear">
+    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="https://www.w3.org/2000/svg">
+      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+      <path d="M0 0h24v24H0z" fill="none" />
+    </svg>
+  </button>
+  <label for="form-autocomplete" class="active">Search</label>
+</div>
 
       <div id="box5">
        <img src="../../images/xfinity.png" alt="xfinity" style="width: 80px">
@@ -83,6 +104,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
 
     
