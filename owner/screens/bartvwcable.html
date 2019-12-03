@@ -8,19 +8,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
 
-<script>
-  var shows = [
-"Milwaukee Brewers",
-"Milwaukee Bucks",
-"Green Bay Packers",
+<script type="text/javascript">
+
+
+var states = [
+"Alabama",
+"Alaska",
+"Arizona",
+"Arkansas",
+"California",
+"Colorado",
+"Connecticut",
+"Delaware",
+"Florida",
+"Georgia",
+"Hawaii",
+"Idaho",
+"Illnois",
+"Indiana",
+"Iowa",
+"Kansas",
+"Kentucky",
+"Louisiana",
+"Maine",
+"Maryland",
+"Massachusetts",
+"Michigan",
+"Minnesota",
+"Mississippi",
+"Missouri",
+"Montana",
+"Nebraska",
+"Nevada",
+"New Hampshire",
+"New Jersey",
+"New Mexico",
+"New York",
+"North Carolina",
+"North Dakota",
+"Ohio",
+"Oklahoma",
+"Oregon",
+"Pennsylvania",
+"Rhode Island",
+"South Carolina",
+"South Dakota",
+"Tennessee",
+"Texas",
+"Utah",
+"Vermont",
+"Virginia",
+"Washington",
+"West Virginia",
+"Wisconsin",
+"Wyoming"
 ];
 
 $('#form-autocomplete').mdbAutocomplete({
-data: shows
+data: states
 });
+
+
 </script>
+
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #293462;">
@@ -34,13 +87,13 @@ data: shows
         <a class="nav-link" href="../indexbar.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Seating</a>
+        <a class="nav-link" href="updateseats.html">Seating</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">TV Scheduling<span class="sr-only">(current)</span></a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Banking</a>
+        <a class="nav-link" href="banking.html">Banking</a>
       </li>
     </ul>
   </div>
@@ -52,6 +105,7 @@ data: shows
       <div id="box3"><h4>Update TV schedule and assign to TVs</h4>
       	<br>
       	<h5>Search for games and programs here</h5>
+
 <div class="md-form">
   <input type="search" id="form-autocomplete" class="form-control mdb-autocomplete">
   <button class="mdb-autocomplete-clear">
@@ -60,8 +114,9 @@ data: shows
       <path d="M0 0h24v24H0z" fill="none" />
     </svg>
   </button>
-  <label for="form-autocomplete" class="active">Search</label>
+  <label for="form-autocomplete" class="active">What is your favorite US state?</label>
 </div>
+
 
       <div id="box5">
        <img src="../../images/xfinity.png" alt="xfinity" style="width: 80px">
@@ -91,11 +146,8 @@ data: shows
    <a href="assigntv.html" style="text-decoration:none"><button id="tvbutton" class="btn btn-outline-info btn-lg btn-block">Assign to TVs</button></a>
  </div>
       </div>
-      <div id="box8">
-        
-      </div>
-      <div id="box9">
-      </div>
+      <div id="box8"></div>
+      <div id="box9"></div>
 
 
 
