@@ -36,10 +36,15 @@ body{
 
 .layout{
   width: 80vw;
+  text-align: center;
+
+ 
+
 
 }
 .btn{
   margin-left: 45vw;
+
 
 }
 
@@ -67,6 +72,7 @@ body{
 
   grid-area:box1;
   height: 10vh;
+  min-height: 50px;
 
   
 
@@ -75,6 +81,7 @@ body{
 #box2{
 
   grid-area:box2;
+
 
 
  
@@ -100,6 +107,7 @@ body{
   
   grid-area:box4;
   height: 40vh;
+  min-height: 300px;
 
 
 }
@@ -150,57 +158,25 @@ body{
 
  
 
-@media only screen and (min-width: 655px){
+@media only screen and (min-width: 620px){
 
 
-
-.screen{
-  width: 30vw;
-  padding: 3vw;
-
-}
-
-.seat{
-  width: 8vw;
-}
-
-.bar{
-  width: 30vw;
-}
-.btn{
-  margin-left: 45vw;
-}
 
   #box4{
   
 
-  height: 50vh;}
+  height: 55vh;
+
+}
 
 @media only screen and (min-width: 850px){
 
 
 
-.screen{
-  width: 20vw;
-  padding: 3vw;
-
-}
-
-.seat{
-  width: 8vw;
-}
-
-.bar{
-  width: 25vw;
-}
-.btn{
-  margin-left: 45vw;
-}
-
   #box4{
   
 
-  height: 50vh;}
+  height: 60vh;}
 
 @media only screen and (min-width: 950px){
 
@@ -209,30 +185,31 @@ body{
   #box4{
   
 
+  height: 70vh;
+
+}
+
+
+@media only screen and (min-width: 1025px){
+
+
+  #box4{
+  min-height: 550px;
+
   height: 70vh;}
 
 
 @media only screen and (min-width: 1150px){
 
-.screen{
-  width: 20vw;
-  
 
-}
+  #box4{
 
-.seat{
-  width: 5vw;
-}
+  height: 80vh;}
 
-.bar{
-  width: 20vw;
-}
-.btn{
-  margin-left: 45vw;
-}
+@media only screen and (min-width: 1200px){
 
 
   #box4{
-  
 
-  height: 60vh;}
+  height: 100vh;
+  min-height: 700px;}
