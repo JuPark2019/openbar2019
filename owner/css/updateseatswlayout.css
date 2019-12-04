@@ -26,10 +26,6 @@ label{
   padding-bottom: 2vh;
 }
 
-.layout{
-  margin-bottom: 10vh;
-}
-
 
 #backbutton{
   margin: 3vw;
@@ -42,6 +38,7 @@ label{
 
 img{
   min-height: 30px;
+
 }
 
 h5, h6{

@@ -24,6 +24,7 @@ body{
 
 .chosen-select{
 	width:100%;
+
 }
 
 img{
@@ -65,8 +66,8 @@ h4, h5{
 #box3{
 	
 	grid-area:box3;
-	height: 20vh;
 	width: 70vw;
+	min-height: 175px;
 
 	
 
@@ -77,6 +78,8 @@ h4, h5{
 	grid-area:box4;
 	height: 5vh;
 	width: 70vw;
+	min-height: 50px;
+	text-align: center; 
 	
 
 }
@@ -86,7 +89,7 @@ h4, h5{
 	grid-area:box5;
 	height: 10vh;
 	width: 70vw;
-	text-align: center; 
+	
 	
 
 }
@@ -96,6 +99,7 @@ h4, h5{
 	grid-area:box6;
 	height: 45vh;
 	width: 70vw;
+	min-height: 270px;
 
 
 
@@ -105,7 +109,7 @@ h4, h5{
 #box7{
 	
 	grid-area:box7;
-	height: 10vh;
+	height: 25vh;
 	width: 70vw;
 
 

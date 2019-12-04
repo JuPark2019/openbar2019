@@ -22,6 +22,10 @@ body{
 		
 	}
 
+img{
+	min-height: 30px;
+}
+
 h3{
 	text-align: center;
 }
@@ -30,6 +34,7 @@ h3{
 
 .btn{
 	height: 15vh;
+	min-height: 100px;
 
 }
 
@@ -53,6 +58,8 @@ h3{
 	
 	grid-area:box3;
 	height: 12vh;
+	min-height: 50px;
+	
 	
 
 }
@@ -61,6 +68,8 @@ h3{
 	
 	grid-area:box4;
 	height: 20vh;
+	min-height: 120px;
+
 	
 
 }
@@ -69,6 +78,7 @@ h3{
 	
 	grid-area:box5;
 	height: 20vh;
+	min-height: 120px;
 	
 
 }
@@ -77,6 +87,7 @@ h3{
 	
 	grid-area:box6;
 	height: 15vh;
+	min-height: 120px;
 
 
 }

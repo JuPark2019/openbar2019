@@ -32,6 +32,11 @@ label{
 
  }
 
+ .nolayout{
+  color:darkcyan;
+
+
+ }
 
 #backbutton{
   margin: 3vw;
@@ -78,7 +83,7 @@ p{
   
   grid-area:box3;
   height: 25vh;
-  min-height: 50px;
+  min-height: 225px;
   text-align: center;
 
 
