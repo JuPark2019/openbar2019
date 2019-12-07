@@ -1,3 +1,4 @@
+.nav-item {font-family: 'Lato', sans-serif;}
 
 
 #grid{
@@ -50,6 +51,7 @@
 }
 
 #box5{
+	font-family: 'Lato', sans-serif;
 	margin:auto;
 	width: 400px;
 	grid-area:box5;
@@ -79,11 +81,12 @@
 #box9{
 
 	grid-area:box9;
+	font-family: 'Lato', sans-serif;
 
 
 }
 
-#buttonsize {width:80px; font-size: xx-small;}
+#buttonsize {margin: 3vw; width:80px; font-size: xx-small; font-family: 'Lato', sans-serif;}
 
 
 .front{width: 300px;margin: 5px 32px 45px 32px;background-color: #f0f0f0; color: #666;text-align: center;padding: 3px;border-radius: 5px;} 

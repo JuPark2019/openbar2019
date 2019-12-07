@@ -1,3 +1,4 @@
+body {font-family: 'Lato', sans-serif;}
 
 
 #grid{
@@ -17,6 +18,8 @@
 		
 		
 	}
+
+.barimage {width: 70vw;}
 
 #box1{
 
@@ -93,16 +96,18 @@
 	
 }
 
-@media only screen and (max-width: 1240px){
+@media only screen and (min-width: 600px){
 
 
-
+.barimage {width:50vw;}
 
 
 
 }
 
-@media only screen and (max-width: 975px){
+@media only screen and (min-width: 900px){
+
+.barimage {width: 40vw;}
 
 	}
 
