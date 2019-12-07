@@ -13,11 +13,13 @@
 		"box2 box6 box6 box6 box6 box6 box6 box6 box6 box6 box6 box8"
 		"box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7"
 
-	
 		
 	}
 
+.carouselcontainer{
+	min-height: 300px;
 
+}
 img{
 	min-height: 30px;
 }
@@ -81,7 +83,9 @@ h6{
 #box5{
 	
 	grid-area:box5;
-	height: 30vh;
+	height: 35vh;
+
+
 
 
 }
@@ -89,7 +93,8 @@ h6{
 #box6{
 	
 	grid-area:box6;
-	height: 5vh;
+	height: 35vh;
+	
 
 }
 
@@ -111,7 +116,7 @@ h6{
 
 	grid-area:box9;
 	height: 5vh;
-	min-height: 15px;
+	min-height: 30px;
 
 }
 
