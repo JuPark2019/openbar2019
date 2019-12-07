@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>OpenBar - Update TV Schedule</title>
+    <title>OpenBar - TV Schedule</title>
       <link rel="stylesheet" type="text/css" href="../css/bartv.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,18 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-<script>
-  var shows = [
-"Milwaukee Brewers",
-"Milwaukee Bucks",
-"Green Bay Packers",
-];
-
-$('#form-autocomplete').mdbAutocomplete({
-data: shows
-});
-</script>
+    <link rel="stylesheet" href="../chosen/chosen.min.css">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #293462;">
@@ -34,42 +23,39 @@ data: shows
         <a class="nav-link" href="../indexbar.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Seating</a>
+        <a class="nav-link" href="updateseats.html">Seating</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">TV Scheduling<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="bartv.html">TV Scheduling<span class="sr-only">(current)</span></a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Banking</a>
+        <a class="nav-link" href="banking.html">Banking</a>
       </li>
     </ul>
   </div>
 </nav>
    <div id="grid">
-
       <div id="box1"><a style="text-decoration:none" href="../indexbar.html"><button id="backbutton" type="button" class="btn btn-outline-info btn-sm">Back</button></a></div>
       <div id="box2"></div>
       <div id="box3"><h4>Update TV schedule and assign to TVs</h4>
-      	<br>
-      	<h5>Search for games and programs here</h5>
-<div class="md-form">
-  <input type="search" id="form-autocomplete" class="form-control mdb-autocomplete">
-  <button class="mdb-autocomplete-clear">
-    <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="https://www.w3.org/2000/svg">
-      <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-      <path d="M0 0h24v24H0z" fill="none" />
-    </svg>
-  </button>
-  <label for="form-autocomplete" class="active">Search</label>
-</div>
+        <br>
+        <h5>Search for games and programs</h5>
 
-      <div id="box5">
-       <img src="../../images/xfinity.png" alt="xfinity" style="width: 80px">
-      </div>
+<select data-placeholder="Search for a Game..." class="chosen-select" multiple tabindex="4">
+          <option value=""></option>
+            <option value="Brewers">Milwaukee Brewers</option>
+            <option value="Bucks">Milwaukee Bucks</option>
+            <option value="Packers">Green Bay Packers</option>
+          </select>
+
+
+    </div>
+          
+
+      <div id="box4"><img src="../../images/xfinity.png" alt="xfinity" style="width: 80px"></div>
+      <div id="box5"></div>
       <div id="box6">
-
-            <h5>From your cable provider</h5>
-
+                         <h5>Find what's popular in your area</h5>
         <div class="card">
   <div class="card-body">
     <input class="card-title" type="checkbox" name="TVshow1" value="TVshow1">Green Bay Packers<br>
@@ -87,12 +73,11 @@ data: shows
 </div>
      </div>
       <div id="box7">
-        <div>
+<div>
    <a href="assigntv.html" style="text-decoration:none"><button id="tvbutton" class="btn btn-outline-info btn-lg btn-block">Assign to TVs</button></a>
  </div>
       </div>
       <div id="box8">
-        
       </div>
       <div id="box9">
       </div>
@@ -104,7 +89,14 @@ data: shows
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../chosen/chosen.jquery.min.js"></script>
+    <script>
 
+      $(document).ready(function(){
+        $(".chosen-select").chosen();
+
+      })
+    </script>
 
 
     
