@@ -1,27 +1,25 @@
 <!doctype html>
 <html lang="en">
-  
   <head>
-    <title>OpenBar - View reservation</title>
+    <title>OpenBar - User Login</title>
+      <link rel="stylesheet" type="text/css" href="../css/loginstyle2.css">
+      <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/ViewReservationStyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  </head>
-  <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #293462;">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #293462;">
   <a class="navbar-brand" href="../../index.html"><img src="../../images/openbarlogo2.png" alt="logo" style="height: 9vh;"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="../../index.html">Home</a>
             </li>
@@ -35,55 +33,50 @@
               <a class="nav-link" href="ju_profileandsettings.html">Profile</a>
             </li>
           </ul>
+        </div>
   </div>
 </nav>
-
    <div id="grid">
 
-      <div id="box1">
-</div>
-      <div id="box9">
-          <p><strong><center>View Reservation</center></strong></p>
-      </div>
+      <div id="box1"></div>
+      <div id="box2"></div>
       <div id="box3">
-        
-        <h1><center>Tonight</center></h1>
-
+        <h5>Welcome to OpenBar!</h5>
       </div>
       <div id="box4">
-        <center>
-       <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Reservation Detail</h5>
-    <img src="../../images/brewers.jpg" alt="tonight" width="250px">
-    <center>
-    <p class="card-text">Brewers v. Nationals</p>
-    <p class="card-text">Mecca, Deer District</p>
-    <p class="card-text">7:00 pm</p>
-    <p class="card-text">2 People</p>
-    <p class="card-text">Seats: 1D, 1E</p>
-    <p class="card-text">Price: $40.00</p>
-      <p class="card-text">Reservation #: 121439</p>
-    <a href="ju_cancellation.html" class="btn btn-outline-info">Cancel Reservation</a></center></center>
-  </div>
-</div>
-      </div>
-       
-      <div id="box5">
-       </div>
-      <div id="box6"></div>
-      <div id="box7">
-      </div>
-      <div id="box8"></div>
-       <div id="box9"></div>
-
-               
-
-   
-    
-
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
     </div>
- 
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+       Sign me up for notifications
+      </label>
+    </div>
+  </div>
+</form>
+      </div>
+      <div id="box5">
+  <a href="ju_confirm.html"><button type="submit" class="btn btn-outline-info">Log in</button></a>
+  <br>
+  <br>
+  <h6>Don't have an account yet? Sign up <a href="ju_signup.html">here</a>.</h6>
+      </div>
+      <div id="box6"></div>
+      <div id="box7"></div>
+      <div id="box8"></div>
+      <div id="box9"></div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
