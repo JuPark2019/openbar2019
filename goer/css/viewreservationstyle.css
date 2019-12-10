@@ -44,7 +44,8 @@ body {font-family: 'Lato', sans-serif;}
 #box4{
 	
 	grid-area:box4;
-	height: 4vh;
+	
+	margin-bottom: 10px
 
 }
 

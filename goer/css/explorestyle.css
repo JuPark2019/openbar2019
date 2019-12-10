@@ -76,6 +76,11 @@ h6 {
 	height: 150px;
 }
 
+#box10{
+  grid-area:box10;
+  margin-top:25px;
+}
+
 .navbars{
 	background-color: transparent;
 }
@@ -132,6 +137,7 @@ form.example::after {
         "box2 box2 box2 box4 box4 box4 box4 box4 box4 box4 box8 box8"
         "box2 box2 box2 box6 box6 box6 box6 box6 box6 box6 box8 box8"
         "box2 box2 box2 box5 box5 box5 box5 box5 box5 box5 box8 box8"
+        "box2 box2 box2 box10 box10 box10 box10 box10 box10 box10 box8 box8"
         "box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7 box7";
     }
 }
@@ -146,6 +152,7 @@ form.example::after {
         "box2 box4 box4 box4 box4 box4 box4 box4 box4 box8"
         "box2 box6 box6 box6 box6 box6 box6 box6 box6 box8"
         "box2 box5 box5 box5 box5 box5 box5 box5 box5 box8"
+        "box2 box10 box10 box10 box10 box10 box10 box10 box10 box8"
         "box7 box7 box7 box7 box7 box7 box7 box7 box7 box7";   
     }
 }
@@ -160,6 +167,7 @@ form.example::after {
         "box2 box4 box4 box4 box4 box4 box4 box8"
         "box2 box6 box6 box6 box6 box6 box6 box8"
         "box2 box5 box5 box5 box5 box5 box5 box8"
+        "box2 box10 box10 box10 box10 box10 box10 box8"
         "box7 box7 box7 box7 box7 box7 box7 box7";         
     }    
 }
